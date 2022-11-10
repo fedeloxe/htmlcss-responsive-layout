@@ -4,3 +4,44 @@
     box-sizing: border-box;
     font-family: 'PT Sans', sans-serif;
 }
+
+
+/*header*/
+
+header .container{
+    height: 10vh;
+    background-color:#0084fd ;
+    
+}
+
+header .row{
+    align-items: center;
+    height: 100%;
+    margin: 0 20px;
+    color: white;
+}
+
+.end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header i{
+    font-size:xx-large;
+}
+
+
+
+/*attribute*/
+
+.row{
+    display: flex;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+.col-50{
+    width: 50%;
+}
