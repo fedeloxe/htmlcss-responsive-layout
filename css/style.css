@@ -17,6 +17,7 @@ header .row{
     margin: 0 2vw;
     color: white;
     height: 10vh;
+    display: flex;
 }
 
 .col-right{
@@ -27,6 +28,18 @@ header .row{
 header i{
     font-size:xx-large;
 }
+
+.main-menu{
+    display: none;
+}
+
+header .col{
+    width: 50%;
+}
+header img{
+    width: fit-content;
+}
+
 
 /*main*/
 
@@ -40,15 +53,14 @@ header i{
     width: 80%;
 }
 
-.tools h3{
+.tools h4{
     color: #0788fd;
     margin-bottom: 4vw;
-    font-size: 1.7rem;
+ 
 }
 
 .tools p{
-    line-height: 2;
-    font-size: 15px;
+    color: #5e7385;
 }
 
 .tools .col-30{
@@ -63,8 +75,41 @@ header i{
 .tools-icon{
     color: #0084fd;
     font-size: 15vw;
-
 }
+
+/*planning*/
+.planning{
+    width: 100%;
+    background-color:#9792e4;
+    margin-top: 30px;
+    color: white;
+}
+
+.col-purple{
+    padding: 1rem 1rem ;
+}
+
+.col-purple h4{
+    margin: 2rem 0;
+}
+
+.col-white-border{
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    text-align: center;
+    padding: 2rem 0.5rem;
+}
+
+.col-white-border p{
+    font-style: italic;
+}
+
+
+
+
+
+
 
 
 
@@ -86,24 +131,36 @@ header i{
     border-radius: 30px;
     display: flex;
     flex-direction: column;
-    
-    padding: 10vw 5vw 0vw 5vw;
+    padding: 5vw 5vw 0vw 5vw;
     margin-top: 4vw;
 }
 
-.row{
-    display: flex;
-}
+
 
 .container{
     margin: 0 auto;
     width: 90%;
 }
 
-
-.col-50{
-    width: 50%;
+img{
+    width: 100%;
 }
+
+h4{
+    font-size: 1.7rem;
+}
+
+p{
+    line-height: 2;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+header a{
+    text-decoration: none;
+}
+
+
 
 
 
@@ -123,6 +180,10 @@ header i{
 
     .col-30{
         width: 30%;
+    }
+
+    .row{
+        display: flex;
     }
 
     
