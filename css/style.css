@@ -33,12 +33,20 @@ header i{
     display: none;
 }
 
-header .col{
-    width: 50%;
+.col-left{
+    width: 30%;
 }
+
+.col-right{
+    width: 70%;
+}
+
+
 header img{
     width: fit-content;
 }
+
+
 
 
 /*main*/
@@ -51,6 +59,7 @@ header img{
 
 .tools img{
     width: 80%;
+    margin:20px 0  -5px 0;
 }
 
 .tools h4{
@@ -61,6 +70,7 @@ header img{
 
 .tools p{
     color: #5e7385;
+    margin-bottom: 25px;
 }
 
 .tools .col-30{
@@ -74,7 +84,7 @@ header img{
 
 .tools-icon{
     color: #0084fd;
-    font-size: 15vw;
+    font-size: 6rem;
 }
 
 /*planning*/
@@ -86,7 +96,7 @@ header img{
 }
 
 .col-purple{
-    padding: 1rem 1rem ;
+    padding: 3rem 1rem ;
 }
 
 .col-purple h4{
@@ -99,10 +109,18 @@ header img{
     color: black;
     text-align: center;
     padding: 2rem 0.5rem;
+    margin-top: 100px;
 }
 
 .col-white-border p{
     font-style: italic;
+    margin-bottom: 30px;
+}
+
+.planning i {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #9792e4;
 }
 
 
@@ -122,7 +140,6 @@ header img{
     background-color: #0084fd;
     text-decoration: none;
     border-radius: 25px;
-    margin: 4vw 0;
     width: 120px;
 }
 
@@ -158,8 +175,15 @@ p{
 
 header a{
     text-decoration: none;
+    color: white;
 }
 
+.button-white{
+    padding: 5px 5px;
+    border-radius: 25px;
+    color: black;
+    background-color: white;
+}
 
 
 
@@ -186,5 +210,62 @@ header a{
         display: flex;
     }
 
+    .planning .container{
+        width: 80%;
+    }
+
+    .col-purple{
+        width: 60%;
+    }
+
+    .col-purple img{
+        width: 80%;
+    }
+
+    .col-white-border{
+        width: 40%;
+    }
+
     
+}
+
+
+@media screen and (min-width :992px ) {
+    .container{
+        width: 80%;
+    }
+
+    .main-menu{
+        display: block;
+    }
+
+    .main-menu ul{
+        display: flex;
+        list-style-type: none;
+    }
+
+    li {
+        margin: 0 5px;
+    }
+    
+    .col-right .hamburger{
+        display: none;
+    }
+
+    .col-70{
+        flex-direction: row;
+    }
+
+    .content{
+        width: 60%;
+    }
+
+    .content-img{
+        width: 40%;
+        align-self:end;
+    }
+
+    .tools img{
+        width: 125%;
+    }
 }
