@@ -47,8 +47,6 @@ header img{
 }
 
 
-
-
 /*main*/
 
 /*tools*/
@@ -123,13 +121,7 @@ header img{
     background-color: #9792e4;
 }
 
-
-
-
-
-
-
-
+/*testimonials*/
 
 
 /*attribute*/
@@ -151,7 +143,6 @@ header img{
     padding: 5vw 5vw 0vw 5vw;
     margin-top: 4vw;
 }
-
 
 
 .container{
@@ -256,11 +247,11 @@ header a{
         flex-direction: row;
     }
 
-    .content{
+    .tools-content{
         width: 60%;
     }
 
-    .content-img{
+    .tools-content-img{
         width: 40%;
         align-self:end;
     }
@@ -268,4 +259,16 @@ header a{
     .tools img{
         width: 125%;
     }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .container{
+        width: 60%;
+    }
+
+    .planning .container{
+        width: 50%;
+    }
+    
 }
