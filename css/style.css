@@ -4,8 +4,6 @@
     box-sizing: border-box;
     font-family: 'PT Sans', sans-serif;
 }
-
-
 /*header*/
 
 header {
@@ -321,11 +319,6 @@ footer p{
 footer a{
     color:#9792e4;
 }
-
-
-
-
-
 /*attribute*/
 
 .button-blue{
@@ -386,11 +379,6 @@ header a{
     text-decoration: none;
     color: white;
 }
-
-
-
-
-
 
 /*responsive*/
 
@@ -524,5 +512,4 @@ header a{
     .planning .container{
         width: 50%;
     }
-    
 }
