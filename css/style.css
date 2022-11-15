@@ -209,6 +209,9 @@ header img{
 }
 
 /*aboutus*/
+.about-us{
+    padding-bottom: 20px;
+}
 
 .text h2{
     margin: 30px 0;
@@ -244,6 +247,83 @@ header img{
     left: 0;
 }
 
+/*get started*/
+.get-started{
+    background-color: #9792e4;
+    text-align: center;
+    color: white;
+}
+
+.get-started h4{
+    font-size: 20px;
+    font-weight: 100;
+    padding: 15px 0;
+}
+
+.get-started h3{
+    font-size: 2rem;
+}
+
+.get-started h2{
+    color:orange;
+    font-size: 5rem;
+    padding: 20px 0;
+}
+
+#p1{
+    font-weight: 400;
+    padding: 0 14vw 20px 14vw;
+    
+}
+
+.get-started .button-white{
+    color: #9792e4;
+    font-size: 30px;
+    padding: 10px 60px;
+}
+
+.copy{
+    margin-top: 20px;
+}
+
+.copy p{
+    display: inline;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.copy a{
+    color: white;
+}
+
+/*footer*/
+footer{
+    background-color: rgb(65, 65, 65);
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+
+
+footer p{
+    font-weight: 400;
+}
+
+.foot-link{
+    margin-top: 20px;
+}
+
+.foot-link p{
+    display: inline;
+}
+
+footer a{
+    color:#9792e4;
+}
+
+
+
 
 
 /*attribute*/
@@ -264,6 +344,14 @@ header img{
     text-decoration: none;
     border-radius: 25px;
     width: 60px;
+}
+
+.button-white{
+    padding: 5px 5px;
+    border-radius: 25px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
 }
 
 .col-tools {
@@ -299,12 +387,7 @@ header a{
     color: white;
 }
 
-.button-white{
-    padding: 5px 5px;
-    border-radius: 25px;
-    color: black;
-    background-color: white;
-}
+
 
 
 
@@ -375,6 +458,10 @@ header a{
     .img-about{
         width: 40%;
         margin-top: 50px;
+    }
+
+    footer .container{
+        width: 50%;
     }
 }
 
