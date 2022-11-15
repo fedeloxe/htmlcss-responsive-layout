@@ -91,6 +91,7 @@ header img{
     background-color:#9792e4;
     margin-top: 30px;
     color: white;
+    padding-bottom: 20px;
 }
 
 .col-purple{
@@ -123,6 +124,58 @@ header img{
 
 /*testimonials*/
 
+.testimonials{
+    margin-top: 20px;
+}
+
+.testimonials-intro{
+    text-align: center;
+}
+
+.testimonials-intro h4{
+    font-size: 20px;
+}
+
+.testimonials-intro h2{
+    color:#9792e4 ;
+}
+
+.testimonials p{
+    font-size: 15px;
+}
+
+.card{
+    background-color: #9792e4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    padding: 20px 30px;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.card-content span{
+    font-size: 50px;
+    position: absolute;
+}
+
+
+.card img{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+
+/*benefits*/
+.benefits{
+    background-color: #9792e4;
+}
 
 /*attribute*/
 
@@ -215,6 +268,15 @@ header a{
 
     .col-white-border{
         width: 40%;
+    }
+
+    .card{
+        flex-direction: row;
+        text-align: start;
+    }
+
+    .card-img{
+        margin-right: 20px;
     }
 
     
